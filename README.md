@@ -6,7 +6,7 @@ The code can be executed with [PyTorch](https://pytorch.org/) and the [D-Wave oc
 To run the code without a quantum annealer on can use [D-Wave neal](https://docs.ocean.dwavesys.com/projects/neal/en/latest/) instead of the whole 
 ocean sdk or look a the experiments with exhaustive search mostly in point_set_registration and rotation_estimation.
 
-![](pipeline.PNG)
+![](pipeline.png)
 
 ## Getting Started
 ### Graph Matching
@@ -42,4 +42,9 @@ As we explained in the paper for the rotation estimation case 3 networks are nee
 Those three can be found in each folder. In order to train the three models all three files (`3d_*`) need to be executed. Once the models are trained and the weights are saved the file `quantumml3d_mixed_eval.py` will test the model and print the mean error of it. 
 
 
+##License
+Permission is hereby granted, free of charge, to any person or company obtaining a copy of this software and associated documentation files (the "Software") from the copyright holders to use the Software for any non-commercial purpose. Publication, redistribution and (re)selling of the software, of modifications, extensions, and derivates of it, and of other software containing portions of the licensed Software, are not permitted. The Copyright holder is permitted to publically disclose and advertise the use of the software by any licensee.
 
+Packaging or distributing parts or whole of the provided software (including code, models and data) as is or as part of other software is prohibited. Commercial use of parts or whole of the provided software (including code, models and data) is strictly prohibited. Using the provided software for promotion of a commercial entity or product, or in any other manner which directly or indirectly results in commercial gains is strictly prohibited.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
