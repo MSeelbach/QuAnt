@@ -6,7 +6,7 @@ The code can be executed with [PyTorch](https://pytorch.org/) and the [D-Wave oc
 To run the code without a quantum annealer on can use [D-Wave neal](https://docs.ocean.dwavesys.com/projects/neal/en/latest/) instead of the whole 
 ocean sdk or look a the experiments with exhaustive search mostly in point_set_registration and rotation_estimation.
 
-![](pipeline.png)
+![](pipeline.PNG)
 
 ## Getting Started
 ### Graph Matching
