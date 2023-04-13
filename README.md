@@ -1,5 +1,5 @@
 # QuAnt: Quantum Annealing with Learnt Couplings (ICLR 2023)
-[Marcel Seelbach Benkner<sup>3</sup>](https://www.vsa.informatik.uni-siegen.de/en/seelbach-marcel),[Maximilian Krahn<sup>2,3</sup>](https://scholar.google.com/citations?user=Dg5q7-QAAAAJ&hl=de), [Edith Tretschk<sup>2</sup>](https://people.mpi-inf.mpg.de/~tretschk/), [Zorah Lähner<sup>3</sup>](https://zorah.github.io/), [Marcel Seelbach Benkner<sup>3</sup>](https://www.vsa.informatik.uni-siegen.de/en/seelbach-marcel), [Michael Möller<sup>3</sup>](https://sites.google.com/site/michaelmoellermath/),  and [Vladislav Golyanik<sup>2</sup>](https://people.mpi-inf.mpg.de/~golyanik/)
+[Marcel Seelbach Benkner<sup>3</sup>](https://www.vsa.informatik.uni-siegen.de/en/seelbach-marcel), [Maximilian Krahn<sup>2,3</sup>](https://scholar.google.com/citations?user=Dg5q7-QAAAAJ&hl=de), [Edith Tretschk<sup>2</sup>](https://people.mpi-inf.mpg.de/~tretschk/), [Zorah Lähner<sup>3</sup>](https://zorah.github.io/), [Michael Möller<sup>3</sup>](https://sites.google.com/site/michaelmoellermath/), and [Vladislav Golyanik<sup>2</sup>](https://people.mpi-inf.mpg.de/~golyanik/)
 
  <sup> 1 </sup> University of Siegen , <sup>2</sup>Max Planck Institute for Informatics, <sup>3</sup> Aalto University.
 
