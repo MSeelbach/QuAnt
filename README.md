@@ -10,6 +10,11 @@ The code can be executed with [PyTorch](https://pytorch.org/) and the [D-Wave oc
 To run the code without a quantum annealer on can use [D-Wave neal](https://docs.ocean.dwavesys.com/projects/neal/en/latest/) instead of the whole 
 ocean sdk or look a the experiments with exhaustive search mostly in point_set_registration and rotation_estimation.
 
+
+[![arXiv](http://img.shields.io/badge/arXiv-2212.07786-b31b1b.svg)](https://arxiv.org/abs/2210.08114)
+![Python](http://img.shields.io/badge/python-%3E%3D3.8-blue)
+![PyTorch](http://img.shields.io/badge/PyTorch-%3E%3D1.10-blue)
+
 ![](pipeline.png)
 
 ## Getting Started
