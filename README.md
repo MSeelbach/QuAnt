@@ -14,7 +14,7 @@ ocean sdk or look a the experiments with exhaustive search mostly in point_set_r
 [![arXiv](http://img.shields.io/badge/arXiv-2212.07786-b31b1b.svg)](https://arxiv.org/abs/2210.08114)
 ![Python](http://img.shields.io/badge/python-%3E%3D3.8-blue)
 ![PyTorch](http://img.shields.io/badge/PyTorch-%3E%3D1.10-blue)
-![](pipeline.png)
+![](pipeline.PNG)
 
 ## Getting Started
 ### Graph Matching
