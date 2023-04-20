@@ -7,8 +7,7 @@ This is the official repository for the project "QuAnt: Quantum Annealing with L
 In this work the coupling matrices for a quantum annealer are learnt with a neural network.
 The preprint can be found at https://arxiv.org/abs/2210.08114 and the project page is at https://4dqv.mpi-inf.mpg.de/QuAnt/.
 The code can be executed with [PyTorch](https://pytorch.org/) and the [D-Wave ocean sdk](https://docs.ocean.dwavesys.com/en/stable/). 
-To run the code without a quantum annealer on can use [D-Wave neal](https://docs.ocean.dwavesys.com/projects/neal/en/latest/) instead of the whole 
-ocean sdk or look a the experiments with exhaustive search mostly in point_set_registration and rotation_estimation.
+To run the code without a quantum annealer on can use [D-Wave neal](https://docs.ocean.dwavesys.com/projects/neal/en/latest/) instead of a QPU Sampler or look a the experiments with exhaustive search mostly in point_set_registration and rotation_estimation.
 
 
 
@@ -20,10 +19,25 @@ ocean sdk or look a the experiments with exhaustive search mostly in point_set_r
 
 
 ## Getting Started
+-The repository can be cloned with
+`git clone https://github.com/MSeelbach/QuAnt/`
+-We recommend the user to set up a conda environment
+```
+conda create --name QuAnt-env
+conda activate QuAnd-env
+```
+-The [D-Wave ocean sdk](https://docs.ocean.dwavesys.com/en/stable/) can be installed with
+`pip install dwave-ocean-sdk
+-Installing [PyTorch](https://pytorch.org/) is another prerequisite.
+-
+
+
 ### Graph Matching
 Install numpy, the [D-Wave ocean sdk](https://docs.ocean.dwavesys.com/en/stable/) and [PyTorch](https://pytorch.org/).
-Execute the `PermutationLearningPegasus.py` file to start the training. You can train the smaller network 
-by setting _UseDeeperNetwork_ to false at the beginning of the code. To train on Willow set _TrainOnWillow_ to true.
+Execute the `PermutationLearningPegasus.py` file to start the training. This can be done in the console without futher arguments as
+'python PermutationLearningPegasus.py'
+You can train the smaller network 
+by setting _UseDeeperNetwork_ to false at line 41 of the `PermutationLearningPegasus.py` file. To train on Willow set _TrainOnWillow_ to true.
 In the same way you have to set _UseQuantumAnnealer_ to true to use quantum annealing instead of simulated annealing.
 
 ### General Comments for point set registration and rotation estimation
