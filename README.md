@@ -35,7 +35,7 @@ conda activate QuAnt-env
 ### Graph Matching
 Install numpy, the [D-Wave ocean sdk](https://docs.ocean.dwavesys.com/en/stable/) and [PyTorch](https://pytorch.org/).
 Execute the `PermutationLearningPegasus.py` file to start the training. This can be done in the console without futher arguments as <br/>
-´python PermutationLearningPegasus.py´ <br/>
+`python PermutationLearningPegasus.py` <br/>
 You can train the smaller network 
 by setting _UseDeeperNetwork_ to false at line 41 of the `PermutationLearningPegasus.py` file. To train on Willow set _TrainOnWillow_ to true.
 In the same way you have to set _UseQuantumAnnealer_ to true to use quantum annealing instead of simulated annealing.
