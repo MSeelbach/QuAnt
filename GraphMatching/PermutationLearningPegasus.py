@@ -34,7 +34,7 @@ from dwave.system import FixedEmbeddingComposite
 import networkx as nx
 
 import pickle 
-
+import os
 import neal
 
 width = 78 # width of the neural network
@@ -472,7 +472,7 @@ plt.xlabel('Hamming distance to Ground Truth')
 plt.ylabel('Number of occurence')
 
 plt.title(str(epoch)+ ' Epochs')
-
+os.mkdir('images')
 plt.savefig('images/'+'width'+str(width)+str(EPOCHS)+'EpochsSigmoidMinusOneHalfInteraction.png')
 plt.close('all')
 torch.save(net.state_dict(),"images/"+'width'+str(width) +"Save" +str(EPOCHS))

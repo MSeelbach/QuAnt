@@ -32,7 +32,7 @@ and following the steps from [https://docs.ocean.dwavesys.com/en/stable/overview
 get access to the solvers from D-Wave one has to create an account for D-Wave Leap ([https://cloud.dwavesys.com/leap/login/?next=/leap/](https://cloud.dwavesys.com/leap/login/?next=/leap/)) and
 can then use the API Token ([https://docs.ocean.dwavesys.com/en/stable/overview/sapi.html](https://docs.ocean.dwavesys.com/en/stable/overview/sapi.html)).  
 
--Installing [PyTorch](https://pytorch.org/) is another prerequisite. We tested the code with versions 2.0.0 and 1.10.0.
+-Installing [PyTorch](https://pytorch.org/) is another prerequisite. We tested the code with versions 2.0.0 and 1.10.0.<br/>
 -After this execute <br/>
 `conda install pandas, matplotlib` <br/>
 
