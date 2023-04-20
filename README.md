@@ -23,7 +23,7 @@ To run the code without a quantum annealer on can use [D-Wave neal](https://docs
 `git clone https://github.com/MSeelbach/QuAnt/` <br/>
 -We recommend the user to set up a conda environment
 ```
-conda create --name QuAnt-env pip
+conda create python=3.8 --name QuAnt-env pip
 conda activate QuAnt-env
 ```
 -The [D-Wave ocean sdk](https://docs.ocean.dwavesys.com/en/stable/) can be installed with
