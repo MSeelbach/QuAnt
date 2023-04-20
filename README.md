@@ -34,7 +34,7 @@ can then use the API Token ([https://docs.ocean.dwavesys.com/en/stable/overview/
 
 -Installing [PyTorch](https://pytorch.org/) is another prerequisite. We tested the code with versions 2.0.0 and 1.10.0.
 -After this execute <br/>
-``conda install pandas, matplotlib <br/>
+`conda install pandas, matplotlib <br/>
 
 
 
