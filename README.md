@@ -30,7 +30,7 @@ conda activate QuAnt-env
 `python -m pip install dwave-ocean-sdk` <br/> 
 and following the steps from [https://docs.ocean.dwavesys.com/en/stable/overview/install.html](https://docs.ocean.dwavesys.com/en/stable/overview/install.html). In particular to 
 get access to the solvers from D-Wave one has to create an account for D-Wave Leap ([https://cloud.dwavesys.com/leap/login/?next=/leap/](https://cloud.dwavesys.com/leap/login/?next=/leap/)) and
-can then use the API Token ([https://docs.ocean.dwavesys.com/en/stable/overview/sapi.html](https://docs.ocean.dwavesys.com/en/stable/overview/sapi.html)).  
+can then use the API Token ([https://docs.ocean.dwavesys.com/en/stable/overview/sapi.html](https://docs.ocean.dwavesys.com/en/stable/overview/sapi.html)). We tested the code for dwave-ocean-sdk version 4.2 and 6.3. 
 
 -Installing [PyTorch](https://pytorch.org/) is another prerequisite. We tested the code with versions 2.0.0 and 1.10.0.<br/>
 -After this execute <br/>
