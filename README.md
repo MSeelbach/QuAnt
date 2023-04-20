@@ -26,9 +26,16 @@ To run the code without a quantum annealer on can use [D-Wave neal](https://docs
 conda create -n QuAnt-env python=3.8
 conda activate QuAnt-env
 ```
--The [D-Wave ocean sdk](https://docs.ocean.dwavesys.com/en/stable/) can be installed with
-`python -m pip install dwave-ocean-sdk` <br/>
--Installing [PyTorch](https://pytorch.org/) is another prerequisite.
+-The [D-Wave ocean sdk](https://docs.ocean.dwavesys.com/en/stable/) can be installed with <br/>
+`python -m pip install dwave-ocean-sdk` <br/> 
+and following the steps from [https://docs.ocean.dwavesys.com/en/stable/overview/install.html](https://docs.ocean.dwavesys.com/en/stable/overview/install.html). In particular to 
+get access to the solvers from D-Wave one has to create an account for D-Wave Leap ([https://cloud.dwavesys.com/leap/login/?next=/leap/](https://cloud.dwavesys.com/leap/login/?next=/leap/)) and
+can then use the API Token ([https://docs.ocean.dwavesys.com/en/stable/overview/sapi.html](https://docs.ocean.dwavesys.com/en/stable/overview/sapi.html)).  
+
+-Installing [PyTorch](https://pytorch.org/) is another prerequisite. We tested the code with versions 2.0.0 and 1.10.0.
+-After this execute <br/>
+``conda install pandas, matplotlib <br/>
+
 
 
 ### Graph Matching
