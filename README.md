@@ -23,17 +23,16 @@ To run the code without a quantum annealer on can use [D-Wave neal](https://docs
 `git clone https://github.com/MSeelbach/QuAnt/` <br/>
 -We recommend the user to set up a conda environment
 ```
-conda create --name QuAnt-env
+conda create --name QuAnt-env pip
 conda activate QuAnt-env
 ```
 -The [D-Wave ocean sdk](https://docs.ocean.dwavesys.com/en/stable/) can be installed with
 `pip install dwave-ocean-sdk` <br/>
 -Installing [PyTorch](https://pytorch.org/) is another prerequisite.
-
+-
 
 
 ### Graph Matching
-Install numpy, the [D-Wave ocean sdk](https://docs.ocean.dwavesys.com/en/stable/) and [PyTorch](https://pytorch.org/).
 Execute the `PermutationLearningPegasus.py` file to start the training. This can be done in the console without futher arguments as <br/>
 `python PermutationLearningPegasus.py` <br/>
 You can train the smaller network 
