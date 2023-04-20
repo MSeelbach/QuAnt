@@ -19,17 +19,17 @@ To run the code without a quantum annealer on can use [D-Wave neal](https://docs
 
 
 ## Getting Started
--The repository can be cloned with
-`git clone https://github.com/MSeelbach/QuAnt/`
+-The repository can be cloned with <br/>
+`git clone https://github.com/MSeelbach/QuAnt/` <br/>
 -We recommend the user to set up a conda environment
 ```
 conda create --name QuAnt-env
-conda activate QuAnd-env
+conda activate QuAnt-env
 ```
 -The [D-Wave ocean sdk](https://docs.ocean.dwavesys.com/en/stable/) can be installed with
-`pip install dwave-ocean-sdk
+`pip install dwave-ocean-sdk` <br/>
 -Installing [PyTorch](https://pytorch.org/) is another prerequisite.
--
+
 
 
 ### Graph Matching
