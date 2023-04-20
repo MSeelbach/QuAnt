@@ -21,7 +21,7 @@ To run the code without a quantum annealer on can use [D-Wave neal](https://docs
 ## Getting Started
 -The repository can be cloned with <br/>
 `git clone https://github.com/MSeelbach/QuAnt/` <br/>
--We recommend the user to set up a conda environment
+-We recommend the user to set up a conda environment with
 ```
 conda create -n QuAnt-env python=3.8
 conda activate QuAnt-env
