@@ -43,7 +43,8 @@ Execute the `PermutationLearningPegasus.py` file to start the training. This can
 `python PermutationLearningPegasus.py` <br/>
 You can train the smaller network 
 by setting _UseDeeperNetwork_ to false at line 41 of the `PermutationLearningPegasus.py` file. To train on Willow set _TrainOnWillow_ to true.
-In the same way you have to set _UseQuantumAnnealer_ to true to use quantum annealing instead of simulated annealing.
+In the same way you have to set _UseQuantumAnnealer_ to true to use quantum annealing instead of simulated annealing. In `GraphMatching/data/WillowGraphmatching/DataPreperation` you can have a closer look at the data preparation. For this [pygmtools](https://github.com/Thinklab-SJTU/pygmtools) has to be installed with
+`pip install pygmtools`
 
 ### General Comments for point set registration and rotation estimation
 In both setups it is necessary to download the datasets seperatly. The point set registration dataset can be found [here](https://2dshapesstructure.github.io) and the ModelNet10 dataset [here](https://modelnet.cs.princeton.edu). In both setups it is necessary to adapt the file paths to the local versions of the datasets and also work-directories.

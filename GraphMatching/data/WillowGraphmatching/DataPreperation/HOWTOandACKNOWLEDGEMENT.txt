@@ -1,5 +1,5 @@
 Use DataPreperation.ipynb and DataPreperationStep2.ipynb to obtain the input data from the Willow dataset.
-benchmark.py and dataset.py are obtained from pygmtools https://github.com/Thinklab-SJTU/pygmtools and can be used
+benchmark.py and dataset.py from pygmtools https://github.com/Thinklab-SJTU/pygmtools can be used
 to download and prepare the dataset. The origin of the code to extract features from the keypoints is
 https://github.com/federica-arrigoni/QuMoSeg/tree/main/datasets/custom_dataset_preparation.
 
